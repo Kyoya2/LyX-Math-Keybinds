@@ -45,7 +45,6 @@ Format 4
 \unbind "M-p asterisk 0" "layout Part*"
 \unbind "M-p asterisk 4" "layout Subsubsection*"
 \unbind "M-p s" "layout Standard"
-\unbind "M-p t" "layout Title"
 \unbind "M-0" "buffer-zoom"
 \unbind "M-a l" "paragraph-params \\align left"
 \unbind "M-a r" "paragraph-params \\align right"
@@ -54,6 +53,8 @@ Format 4
 \unbind "C-M-t" "command-alternatives master-buffer-view ps; buffer-view ps"
 \unbind "M-period" "specialchar-insert dots"
 \unbind "C-M-space" "space-insert normal"
+\unbind "C-i" "inset-toggle"
+\unbind "C-S-i" "info-insert"
 
 \bind "S-asterisk" "math-insert \\cdot"
 \bind "bracketleft" "math-delim [ ]"
@@ -347,5 +348,6 @@ Format 4
 \bind "M-period backslash" "math-insert \\ddots"
 \bind "M-period slash" "math-insert \\iddots"
 \bind "C-M-space" "math-space"
-\bind "C-grave" "layout Title"
+\bind "C-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
+\bind "C-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
 
