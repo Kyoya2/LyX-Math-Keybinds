@@ -269,4 +269,5 @@ Format 4
 \bind "C-M-space" "math-space"
 \bind "C-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
 \bind "C-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
+\bind "M-t" "math-insert \\bot"
 
