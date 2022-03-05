@@ -55,6 +55,7 @@ Format 4
 \unbind "C-M-space" "space-insert normal"
 \unbind "C-i" "inset-toggle"
 \unbind "C-S-i" "info-insert"
+\unbind "C-S-asterisk" "math-macro-unfold"
 
 \bind "S-asterisk" "math-insert \\cdot"
 \bind "bracketleft" "math-delim [ ]"
@@ -270,4 +271,5 @@ Format 4
 \bind "C-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
 \bind "C-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
 \bind "M-t" "math-insert \\bot"
+\bind "C-S-asterisk" "math-insert *"
 
