@@ -268,8 +268,8 @@ Format 4
 \bind "M-period backslash" "math-insert \\ddots"
 \bind "M-period slash" "math-insert \\iddots"
 \bind "C-M-space" "math-space"
-\bind "C-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
-\bind "C-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
 \bind "M-t" "math-insert \\bot"
+\bind "M-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
+\bind "M-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
 \bind "C-S-asterisk" "math-insert *"
 
