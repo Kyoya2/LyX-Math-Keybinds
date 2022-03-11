@@ -262,7 +262,6 @@ Format 4
 \bind "M-9" "math-delim ( ]"
 \bind "M-S-exclam" "math-insert \\not"
 \bind "C-M-S-exclam" "math-insert \\lnot"
-\bind "C-S-bar" "math-insert \\,\\rvert\\,"
 \bind "M-period minus" "math-insert \\cdots"
 \bind "M-period S-bar" "math-insert \\vdots"
 \bind "M-period backslash" "math-insert \\ddots"
@@ -272,4 +271,6 @@ Format 4
 \bind "M-i" "command-sequence math-insert \\intop_{}^{}dx; char-backward; char-backward; down"
 \bind "M-S-i" "command-sequence math-insert \\left.\\right\\rvert_{}^{}; down"
 \bind "C-S-asterisk" "math-insert *"
+\bind "C-M-S-bar" "math-insert \\,\\rvert\\,"
+\bind "C-S-bar" "math-insert \\left\\Vert \\right\\Vert"
 
