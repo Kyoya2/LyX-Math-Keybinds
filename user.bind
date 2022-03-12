@@ -93,7 +93,6 @@ Format 4
 \bind "M-4" "layout Subsubsection*"
 \bind "M-backslash" "math-insert \\slash"
 \bind "M-0" "layout Standard"
-\bind "C-M-S-plus" "newpage-insert"
 \bind "C-M-Left" "paragraph-params \\align left"
 \bind "C-M-Right" "paragraph-params \\align right"
 \bind "C-space" "math-insert \\hspace{2em}"
@@ -274,4 +273,5 @@ Format 4
 \bind "C-S-asterisk" "math-insert *"
 \bind "C-M-S-bar" "math-insert \\,\\rvert\\,"
 \bind "C-S-bar" "math-insert \\left\\Vert \\right\\Vert"
+\bind "C-M-S-Return" "newpage-insert"
 
