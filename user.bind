@@ -274,4 +274,5 @@ Format 4
 \bind "C-M-S-bar" "math-insert \\,\\rvert\\,"
 \bind "C-S-bar" "math-insert \\left\\Vert \\right\\Vert"
 \bind "C-M-S-Return" "newpage-insert"
+\bind "C-M-l" "math-insert \\ell"
 
