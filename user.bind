@@ -275,4 +275,5 @@ Format 4
 \bind "C-S-bar" "math-insert \\left\\Vert \\right\\Vert"
 \bind "C-M-S-Return" "newpage-insert"
 \bind "C-M-l" "math-insert \\ell"
+\bind "C-M-w" "command-sequence math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle}}}{}; char-forward; char-forward"
 
