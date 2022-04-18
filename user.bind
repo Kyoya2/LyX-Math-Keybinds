@@ -275,5 +275,5 @@ Format 4
 \bind "C-S-bar" "math-insert \\left\\Vert \\right\\Vert"
 \bind "C-M-S-Return" "newpage-insert"
 \bind "C-M-l" "math-insert \\ell"
-\bind "C-M-w" "command-sequence math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle \\left(\\right)}}}{}; char-forward; char-forward; char-forward"
+\bind "C-M-w" "command-sequence char-left-select; cut; math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle \\left(\\right)}}}{}; down; paste; up; repeat 3 char-forward"
 
