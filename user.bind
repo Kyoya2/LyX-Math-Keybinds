@@ -56,6 +56,7 @@ Format 4
 \unbind "C-i" "inset-toggle"
 \unbind "C-S-i" "info-insert"
 \unbind "C-S-asterisk" "math-macro-unfold"
+\unbind "C-S-underscore" "math-macro-fold"
 
 \bind "S-asterisk" "math-insert \\cdot"
 \bind "bracketleft" "math-delim [ ]"
@@ -106,6 +107,7 @@ Format 4
 \bind "S-less equal" "math-insert \\leq"
 \bind "S-greater space" "math-insert >"
 \bind "S-greater equal" "math-insert \\geq"
+\bind "S-greater S-less" "math-insert \\bowtie"
 \bind "M-z o" "math-insert \\omega"
 \bind "M-z S-o" "math-insert \\Omega"
 \bind "M-z g" "math-insert \\gamma"
@@ -276,4 +278,5 @@ Format 4
 \bind "C-M-S-Return" "newpage-insert"
 \bind "C-M-l" "math-insert \\ell"
 \bind "C-M-w" "command-sequence char-left-select; cut; math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle \\left(\\right)}}}{}; down; paste; up; repeat 3 char-forward"
+\bind "C-S-underscore" "math-insert \\_"
 
