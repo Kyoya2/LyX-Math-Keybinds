@@ -118,7 +118,7 @@ Format 4
 \bind "M-z m" "math-insert \\mu"
 \bind "M-z p s" "math-insert \\psi"
 \bind "M-z p i" "math-insert \\pi"
-\bind "M-z p h" "math-insert \\phi"
+\bind "M-z p h" "math-insert \\varphi"
 \bind "M-z l" "math-insert \\lambda"
 \bind "M-z S-l" "math-insert \\Lambda"
 \bind "M-z S-d" "math-insert \\Delta"
