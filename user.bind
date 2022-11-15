@@ -279,4 +279,5 @@ Format 4
 \bind "C-M-w" "command-sequence char-left-select; cut; math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle \\left(\\right)}}}{}; down; paste; up; repeat 3 char-forward"
 \bind "C-S-underscore" "math-insert \\_"
 \bind "M-i" "command-sequence math-insert \\intop\\limits_{}^{}dx; char-backward; char-backward; down"
+\bind "C-S-asciicircum" "math-insert \\mathcircumflex"
 
