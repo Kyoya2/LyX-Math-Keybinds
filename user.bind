@@ -133,6 +133,8 @@ Format 4
 \bind "M-z s" "math-insert \\sigma"
 \bind "M-z S-s" "math-insert \\Sigma"
 \bind "M-z x" "math-insert \\xi"
+\bind "M-z z" "math-insert \\zeta"
+\bind "M-z S-x" "math-insert \\Xi"
 \bind "M-x" "math-insert \\times"
 \bind "M-minus space minus" "command-sequence math-insert \\xleftrightarrow[\\begin{array}{c} \\end{array}]{\\begin{array}{c} \\end{array}}; char-forward"
 \bind "M-minus space d" "command-sequence math-insert \\xrightarrow[\\begin{array}{c} \\end{array}]{\\begin{array}{c} \\end{array}}; char-forward"
