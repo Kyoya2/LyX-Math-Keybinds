@@ -12,7 +12,7 @@ set setup_type=%errorlevel%
 
 REM Try to delete the current keybind file if it exists
 if exist %BINDS_FILE_DEST% (
-    choice /c yn /m "Are you sure you want to delete the current keybinds file?"
+    choice /c yn /m "Are you sure you want to delete the current keybindings file?"
     if !errorlevel!==2 goto EOF
     del %BINDS_FILE_DEST% /q /f
 )
