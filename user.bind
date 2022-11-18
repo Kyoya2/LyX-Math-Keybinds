@@ -265,6 +265,7 @@ Format 4
 \bind "M-bracketleft" "math-delim [ )"
 \bind "M-bracketright" "math-delim ( ]"
 \bind "M-9" "math-delim ( ]"
+\bind "M-0" "math-delim [ )"
 \bind "M-S-exclam" "math-insert \\not"
 \bind "C-M-S-exclam" "math-insert \\lnot"
 \bind "M-period minus" "math-insert \\cdots"
