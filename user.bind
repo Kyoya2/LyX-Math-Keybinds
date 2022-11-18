@@ -263,6 +263,7 @@ Format 4
 \bind "M-slash" "math-insert \\frac"
 \bind "C-M-slash" "math-insert \\dfrac"
 \bind "M-bracketleft" "math-delim [ )"
+\bind "M-bracketright" "math-delim ( ]"
 \bind "M-9" "math-delim ( ]"
 \bind "M-S-exclam" "math-insert \\not"
 \bind "C-M-S-exclam" "math-insert \\lnot"
