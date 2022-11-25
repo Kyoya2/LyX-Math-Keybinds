@@ -93,7 +93,6 @@ Format 4
 \bind "M-3" "layout Subsection*"
 \bind "M-4" "layout Subsubsection*"
 \bind "M-backslash" "math-insert \\slash"
-\bind "M-0" "layout Standard"
 \bind "C-M-Left" "paragraph-params \\align left"
 \bind "C-M-Right" "paragraph-params \\align right"
 \bind "C-space" "math-insert \\hspace{2em}"
@@ -284,4 +283,5 @@ Format 4
 \bind "M-i" "command-sequence math-insert \\intop\\limits_{}^{}dx; char-backward; char-backward; down"
 \bind "C-S-asciicircum" "math-insert \\mathcircumflex"
 \bind "C-M-w" "command-sequence math-insert \\stackrel{\\mathclap{{\\scriptscriptstyle }}}{}; down;"
+\bind "M-grave" "layout Standard"
 
