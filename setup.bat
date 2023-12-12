@@ -25,4 +25,5 @@ if %setup_type%==1 (
     mklink %BINDS_FILE_DEST% %BINDS_FILE_SRC%
 )
 
-echo Please restart LyX for the changes to take effect.
+if %errorlevel%==0 echo Please restart LyX for the changes to take effect.
+pause
