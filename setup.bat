@@ -6,7 +6,7 @@ set BINDS_FILE_SRC="%~dp0user.bind"
 
 echo Choose a setup type
 echo [1] - Replace `user.bind` with the new `user.bind`. Use this if you didn't clone the repository and don't want updates on pull.
-echo [2] - Replace `user.bind` with a hardlink to the new `user.bind`. Use this if you cloned the repository and want the file to be automatically updated on pull. (Requires admin privileges)
+echo [2] - Replace `user.bind` with a symlink to the new `user.bind`. Use this if you cloned the repository and want the file to be automatically updated on pull. (Requires admin privileges)
 choice /c 12
 cls
 set setup_type=%errorlevel%
